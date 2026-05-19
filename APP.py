@@ -197,11 +197,11 @@ def biseccion():
                     "Visualizacion de Iteraciones"
                 )
 
-                iteracion_visual = st.selectbox(
-                    "Seleccione una iteracion",
-                    options=tabla["Iteracion"],
-                    index=len(tabla) - 1,
-                    key="bi_iter"
+                iteracion_visual = st.slider(
+                    "Iteración",
+                    min_value=1,
+                    max_value=len(tabla),
+                    value=len(tabla)
                 )
 
                 fila = tabla.iloc[
