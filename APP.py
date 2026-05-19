@@ -20,10 +20,12 @@ st.set_page_config(
 
 st.sidebar.title("📘 Métodos Numéricos")
 
-st.set_page_config(
-    page_title="Métodos Numéricos",
-    page_icon="📘",
-    layout="wide"
+metodo = st.sidebar.radio(
+    "Seleccione un método",
+    [
+        "Metodo de Biseccion",
+        "Metodo de Falsa Posicion"
+    ]
 )
 # ==================================================
 # METODO DE BISECCION
