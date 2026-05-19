@@ -18,14 +18,13 @@ st.set_page_config(
 # MENU LATERAL
 # ==================================================
 
-metodo = st.sidebar.radio(
-    "Seleccione un metodo",
-    [
-        "Metodo de Biseccion",
-        "Metodo de Falsa Posicion"
-    ]
-)
+st.sidebar.title("📘 Métodos Numéricos")
 
+st.set_page_config(
+    page_title="Métodos Numéricos",
+    page_icon="📘",
+    layout="wide"
+)
 # ==================================================
 # METODO DE BISECCION
 # ==================================================
@@ -637,3 +636,15 @@ if metodo == "Metodo de Biseccion":
 
 elif metodo == "Metodo de Falsa Posicion":
     falsa_posicion()
+    st.markdown("---")
+
+st.markdown(
+    """
+    <div style='text-align: center; color: gray; padding-top: 30px;'>
+        © 2026 | Desarrollado por <b>Cumpa Smith (EL TRIPLE H)</b><br>
+        Ingeniería • Métodos Numéricos • Python
+    </div>
+    """,
+    unsafe_allow_html=True
+)
+                   
