@@ -644,7 +644,7 @@ st.markdown(
     """
     <div style='text-align: center; color: gray; padding-top: 30px;'>
         © 2026 | Desarrollado por <b>Cumpa Smith (EL TRIPLE H)</b><br>
-        Ingeniería • Métodos Numéricos • Python
+        Fisica • Métodos Numéricos • Python
     </div>
     """,
     unsafe_allow_html=True
