@@ -18,7 +18,7 @@ st.set_page_config(
 # MENU LATERAL
 # ==================================================
 
-metodo = st.sidebar.selectbox(
+metodo = st.sidebar.radio(
     "Seleccione un metodo",
     [
         "Metodo de Biseccion",
